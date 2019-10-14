@@ -1,5 +1,8 @@
 package ru.ifmo.smehnov;
 import ru.ifmo.se.pokemon.*;
+import ru.ifmo.smehnov.pokemons.Deoxys;
+import ru.ifmo.smehnov.pokemons.Taillow;
+
 public class Main {
 
     public static void main(String[] args) {
