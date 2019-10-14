@@ -5,6 +5,10 @@ import ru.ifmo.se.pokemon.Type;
 
 public class Deoxys extends Pokemon {
 
+    public Deoxys(){
+        this("Dyoxys", 1);
+    }
+
     public Deoxys(String name, int level){
         super(name, level);
         super.setType(Type.PSYCHIC);
