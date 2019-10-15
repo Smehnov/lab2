@@ -15,12 +15,12 @@ public class Deoxys extends Pokemon {
 
     public Deoxys(String name, int level){
         super(name, level);
-        super.setType(Type.PSYCHIC);
-        super.setStats(50, 150, 50, 150, 50, 150);
-        super.addMove(new WingAttack());
-        super.addMove(new AirSlash());
-        super.addMove(new Rest());
-        super.addMove(new BugBuzz());
+        this.setType(Type.PSYCHIC);
+        this.setStats(50, 150, 50, 150, 50, 150);
+        this.addMove(new WingAttack());
+        this.addMove(new AirSlash());
+        this.addMove(new Rest());
+        this.addMove(new BugBuzz());
     }
 
 }

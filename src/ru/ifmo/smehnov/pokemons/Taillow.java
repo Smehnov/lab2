@@ -15,11 +15,11 @@ public class Taillow extends Pokemon {
 
     public Taillow(String name, int level) {
         super(name, level);
-        super.setType(Type.NORMAL, Type.FLYING);
-        super.setStats(40, 55, 30, 30, 30, 85);
-        super.addMove(new Swagger());
-        super.addMove(new Facade());
-        super.addMove(new IceBeam());
+        this.setType(Type.NORMAL, Type.FLYING);
+        this.setStats(40, 55, 30, 30, 30, 85);
+        this.addMove(new Swagger());
+        this.addMove(new Facade());
+        this.addMove(new IceBeam());
 
     }
 }

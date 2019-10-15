@@ -2,7 +2,7 @@ package ru.ifmo.smehnov.moves;
 
 import ru.ifmo.se.pokemon.*;
 
-public class AirSlash extends PhysicalMove {
+public class AirSlash extends SpecialMove {
     public AirSlash() {
         super(Type.FLYING, 75, 95);
     }
