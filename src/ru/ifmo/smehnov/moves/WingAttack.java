@@ -10,7 +10,7 @@ public class WingAttack extends PhysicalMove {
     }
 
     @Override
-    protected String describe(){
+    protected String describe() {
         return "wing attack";
     }
 }

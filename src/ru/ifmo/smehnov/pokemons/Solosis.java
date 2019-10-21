@@ -6,11 +6,11 @@ import ru.ifmo.smehnov.moves.Facade;
 import ru.ifmo.smehnov.moves.Rest;
 
 public class Solosis extends Pokemon {
-    public Solosis(){
-        this("Solosis",1);
+    public Solosis() {
+        this("Solosis", 1);
     }
 
-    public Solosis(String name, int level){
+    public Solosis(String name, int level) {
         super(name, level);
         this.setType(Type.PSYCHIC);
         this.setStats(45, 30, 40, 105, 50, 20);

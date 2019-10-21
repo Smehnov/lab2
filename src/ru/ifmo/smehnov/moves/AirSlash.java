@@ -8,14 +8,14 @@ public class AirSlash extends SpecialMove {
     }
 
     @Override
-    protected String describe(){
-        return "air slash";
+    protected void applyOppEffects(Pokemon p) {
+        Effect e = new Effect().chance(0.3);
+        e.flinch(p);
+        p.addEffect(e);
     }
 
     @Override
-    protected void applyOppEffects(Pokemon p){
-        Effect e =new Effect().chance(0.3);
-        e.flinch(p);
-        p.addEffect(e);
+    protected String describe() {
+        return "air slash";
     }
 }

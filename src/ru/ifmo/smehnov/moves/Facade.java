@@ -7,23 +7,22 @@ import ru.ifmo.se.pokemon.Type;
 
 public class Facade extends PhysicalMove {
 
-    public Facade(){
+    public Facade() {
 
-       super(Type.NORMAL, 70, 100);
+        super(Type.NORMAL, 70, 100);
 
     }
 
     @Override
-    protected void applySelfEffects(Pokemon p){
-        if((p.getCondition() == Status.POISON) || (p.getCondition() == Status.BURN) || (p.getCondition() == Status.PARALYZE)){
-            this.power *=  2;
+    protected void applySelfEffects(Pokemon p) {
+        if ((p.getCondition() == Status.POISON) || (p.getCondition() == Status.BURN) || (p.getCondition() == Status.PARALYZE)) {
+            this.power *= 2;
         }
     }
 
 
-
     @Override
-    protected String describe(){
+    protected String describe() {
         return "facade";
     }
 

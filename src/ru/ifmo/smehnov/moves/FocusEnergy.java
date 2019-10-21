@@ -8,12 +8,12 @@ public class FocusEnergy extends StatusMove {
     }
 
 
-    protected double calcCriticalHit(Pokemon att, Pokemon def){
+    protected double calcCriticalHit(Pokemon att, Pokemon def) {
         return 2d;
     }
 
     @Override
-    protected String describe(){
+    protected String describe() {
         return "focus energy";
     }
 

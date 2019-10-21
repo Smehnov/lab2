@@ -1,4 +1,5 @@
 package ru.ifmo.smehnov;
+
 import ru.ifmo.se.pokemon.*;
 import ru.ifmo.smehnov.pokemons.*;
 

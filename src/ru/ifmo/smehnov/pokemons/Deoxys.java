@@ -9,11 +9,11 @@ import ru.ifmo.smehnov.moves.WingAttack;
 
 public class Deoxys extends Pokemon {
 
-    public Deoxys(){
+    public Deoxys() {
         this("Dyoxys", 1);
     }
 
-    public Deoxys(String name, int level){
+    public Deoxys(String name, int level) {
         super(name, level);
         this.setType(Type.PSYCHIC);
         this.setStats(50, 150, 50, 150, 50, 150);
