@@ -21,6 +21,7 @@ public class Main {
         b.addFoe(deoxys);
         b.addFoe(solosis);
         b.addFoe(reuniclus);
+
         b.go();
     }
 }
